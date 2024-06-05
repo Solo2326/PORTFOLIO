@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="stle.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+        *{
+            font-family: 'Quicksand', sans-serif;
+        }
+        
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        body{
+            color: #fff;
+            background-color: #e9ff99;
+            background-image:
+                radial-gradient(at 9% 89%, hsla(215, 90%, 73%, 1) 0px, transparent 50%),
+                radial-gradient(at 72% 6%, hsla(331, 74%, 64%, 1) 0px, transparent 50%),
+                radial-gradient(at 24% 19%, hsla(14, 90%, 74%, 1) 0px, transparent 50%),
+                radial-gradient(at 65% 6%, hsla(6, 79%, 76%, 1) 0px, transparent 50%),
+                radial-gradient(at 20% 98%, hsla(316, 72%, 64%, 1) 0px, transparent 50%),
+                radial-gradient(at 44% 9%, hsla(40, 96%, 77%, 1) 0px, transparent 50%),
+                radial-gradient(at 10% 9%, hsla(76, 65%, 63%, 1) 0px, transparent 50%);
+            min-height: 100vh;
+        }
+        
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+        
+        .glass-container{
+            display: block;
+            max-width: 72vw;
+            margin-top: 10vh;
+            margin-bottom: 30px;
+            background: rgba(0, 0, 0, 0.56);
+            padding: 50px;
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(11.6px);
+            -webkit-backdrop-filter: blur(11.6px);
+        }
+        
+        .logo{
+            display: inline-block;
+            font-size: 30px;
+            font-weight: 600;
+            margin-top: -10px;
+        }
+        
+        ul.nav-links{
+            margin: 0;
+            float: right;
+            display: flex;
+            list-style: none;
+        }
+        
+        li.nav-link{
+            display: inline-block;
+            margin-left: 30px;
+            font-size: 17px;
+            font-weight: 300;
+        }
+        
+        .content{
+            display: flex;
+            width: 100%;
+        }
+        
+        .main{
+            margin-top: 10vh;
+            display: inline-block;
+            padding: 20px;
+        }
+        
+        .main h2{
+            font-size: 35px;
+        }
+        
+        .main p{
+            font-size: 16px;
+            line-height: 23px;
+        }
+        
+        button{
+            margin-top: 10px;
+            width: 100%;
+            height: 40px;
+            font-size: 15px;
+            color: #fff;
+            background-color: transparent;
+            border: 1px solid #fff;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        button:hover{
+            border-color: #2668db;
+            background-color: #2668db;
+        }
+        
+        .image-wrapper{
+            display: flex;
+            margin-top: 5vh;
+            position: relative;
+        }
+        
+        .image-wrapper img{
+            max-width: 500px;
+        }
+        
+        .attrebute{
+            position: absolute;
+            bottom: 20px;
+            right: 0;
+            font-size: 12px;
+        }
+        
+        @media screen and (max-width: 1075px) {
+            .content{
+                flex-direction: column;
+            }
+        }
+        
+        @media screen and (max-width: 720px) {
+            .logo{
+                font-size: 22px;
+            }
+            li.nav-link{
+                font-size: 13px;
+            }
+            .main h2{
+                font-size: 28px;
+            }
+            .main p{
+                font-size: 15px;
+            }
+            button{
+                font-size: 13px;
+            }
+            .image-wrapper img{
+                max-width: 400px;
+            }
+        }</style>
+    <title>SoloSito || SoloBebo</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="assets/logo.png">
+            <a href="#">SoloSito by Alberto Perra</a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="works.html">Works</a>
+            <a href="single-work.html">Single Work</a>
+            <a href="blog.html">Blog</a>
+            <a class="selected" href="about.html">About</a>
+        </div>
+    </nav>
+
+    <h1 class="page-title">About</h1>
+
+    <div class="content">
+        <div class="container">
+            <img src="assets/profile-2.png">
+            <div class="about">
+                <h2>I'm Alberto Perra</h2>
+                <p>Sono un appassionato sviluppatore Full-Stack con esperienza nella creazione di applicazioni web moderne ed efficienti. Amo risolvere problemi complessi e trasformare idee in realtà digitali. </p>
+                <p class="email">Contact Me : perra.alberto01@gmail.com</p>
+            </div>
+        </div>
+    </div>
+
+    <code><!DOCTYPE html>
+        <html lang="it">
+        
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="stile.css">
+            <title>Solo PortFolio || SoloBebo</title>
+        </head>
+        
+        <body>
+        
+            <div class="container">
+                <div class="glass-container">
+                    <nav class="navbar">
+                        <div class="logo"><a href="#">SoloBebo</a></div>
+                        <ul class="nav-links">
+                            <li class="nav-link"><a href="#">Home</a></li>
+                            <li class="nav-link"><a href="#">Youtube</a></li>
+                            <li class="nav-link"><a href="#">About</a></li>
+                        </ul>
+                    </nav>
+                    <div class="content">
+                        <div class="main">
+                            <h2>Hey! 👋,<br>It's SoloBebo</h2>
+                            <p>
+                                Sono un appassionato sviluppatore Full-Stack con esperienza nella creazione di applicazioni web moderne ed efficienti. Amo risolvere problemi complessi e trasformare idee in realtà digitali. La mia passione per la tecnologia e la creatività mi spinge a superare i limiti e a fornire soluzioni innovative.
+                            </p>
+                            <p>
+                                Esplora il mio portfolio per scoprire alcuni dei miei progetti più recenti e le tecnologie che utilizzo. Non esitare a contattarmi se vuoi collaborare o semplicemente fare due chiacchiere su tutto ciò che riguarda il mondo dello sviluppo.
+                            </p>
+                            <button>Scopri di più</button> 
+                        </div>
+                        <div class="image-wrapper">
+                            <img src="razzo.png" alt="Immagine di SoloBebo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <p>&copy; 2024 SoloBebo. Tutti i diritti riservati.</p>
+            </footer>
+        
+        </body>
+        
+        </html></code>
+
+
+    <footer>
+        <div class="socials">
+            <i class='bx bxl-facebook-square'></i>
+            <i class='bx bxl-instagram'></i>
+            <i class='bx bxl-twitter'></i>
+            <i class='bx bxl-linkedin-square'></i>
+        </div>
+        <p>SoloBebo ©2024, Tutti i diritti riservati.</p>
+    </footer>
+
+</body>
+
+</html>
