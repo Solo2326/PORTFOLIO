@@ -18,10 +18,10 @@
         </div>
         <div class="nav-links">
             <a href="index.html">Home</a>
-            <a href="works.html">Lavori</a>
-            <a href="single-work.html">Lavoro Singolo</a>
+            <a href="lavori.html">Lavori</a>
+            <a href="progetto.html">Lavoro Singolo</a>
             <a href="blog.html">Blog</a>
-            <a class="selected" href="about.html">Chi sono?</a>
+            <a class="selected" href="chisono.html">Chi sono?</a>
         </div>
     </nav>
 
@@ -30,7 +30,7 @@
     <div class="content">
         <div class="container">
             <img src="assets/profile-2.png">
-            <div class="about">
+            <div class="chisono">
                 <h2>I'm Alberto Perra</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae natus inventore cum quam harum
                     velit fugiat, aperiam doloribus quos officia ipsa nihil quibusdam at enim ipsum voluptas dignissimos
