@@ -1,60 +1,122 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stile.css">
-    <title>Solo PortFolio || SoloBebo</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio #06 | AsmrProg</title>
 </head>
+
 <body>
-    <div class="container">
-        <div class="glass-container">
-            <nav class="navbar">
-                <div class="logo"><a href="#index">SoloBebo</a></div>
-                <ul class="nav-links">
-                    <li class="nav-link"><a href="#home">Home</a></li>
-                    <li class="nav-link"><a href="#chisono">Chi sono</a></li>
-                    <li class="nav-link"><a href="lavori">Progetti</a></li>
-                    <li class="nav-link"><a href="#contatti">Contatti</a></li>
-                </ul>
-            </nav>
 
-            <section id="home" class="content">
-                <div class="main">
-                    <h2>Hey! 👋,<br>It's SoloBebo</h2>
-                    <p>
-                        Sono un appassionato sviluppatore Full-Stack con esperienza nella creazione di applicazioni web moderne ed efficienti. Amo risolvere problemi complessi e trasformare idee in realtà digitali. 
-                    </p>
-                    <p>
-                        Esplora il mio portfolio per scoprire alcuni dei miei progetti più recenti e le tecnologie che utilizzo. Non esitare a contattarmi se vuoi collaborare o semplicemente fare due chiacchiere su tutto ciò che riguarda il mondo dello sviluppo.
-                    </p>
-                    <button>Scopri di più</button>
+    <nav>
+        <div class="logo">
+            <img src="assets/logo.png">
+            <a href="#">AsmrProg</a>
+        </div>
+        <div class="nav-links">
+            <a class="selected" href="index.html">Home</a>
+            <a href="works.html">Works</a>
+            <a href="single-work.html">Single Work</a>
+            <a href="blog.html">Blog</a>
+            <a href="about.html">About</a>
+        </div>
+    </nav>
+
+    <div class="main">
+        <div class="info">
+            <h1>Hello, I'm Reza, <br>Creative Developer</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ea doloribus repudiandae quibusdam
+                voluptates non eum perferendis aut.</p>
+            <button>Download Resume</button>
+        </div>
+        <img src="assets/profile-1.png">
+    </div>
+
+    <div class="recent">
+        <div class="header">
+            <h4>Recent Posts</h4>
+            <a href="blog.html">View all</a>
+        </div>
+        <div class="posts">
+            <div class="post-item">
+                <h3>Making a layout system from scratch</h3>
+                <div class="info">
+                    <h5>12 Jan 2024</h5>
+                    <h5>|</h5>
+                    <h5>Design, Layout</h5>
                 </div>
-                <div class="image-wrapper">
-                    <img src="me.webp" alt="Immagine di SoloBebo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet pariatur porro quaerat provident
+                    corporis facere ex voluptatibus laudantium voluptates quos.</p>
+            </div>
+            <div class="post-item">
+                <h3>Making a design system from scratch</h3>
+                <div class="info">
+                    <h5>5 Jan 2024</h5>
+                    <h5>|</h5>
+                    <h5>Design, UI, UX</h5>
                 </div>
-            </section>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet pariatur porro quaerat provident
+                    corporis facere ex voluptatibus laudantium voluptates quos.</p>
+            </div>
+        </div>
+    </div>
 
-            <section id="about" class="section">
-                <h2>Chi sono</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-            </section>
+    <div class="separator">
+        <h4>Featured Works</h4>
+    </div>
 
-            <section id="projects" class="section">
-                <h2>Progetti</h2>
-                </section>
-
-            <section id="contact" class="section">
-                <h2>Contatti</h2>
-                <p>Email: solobebo@email.com</p>
-                </section>
+    <div class="featured">
+        <div class="item">
+            <img src="assets/item-1.jpg">
+            <div class="details">
+                <h3>Capture Screenshots</h3>
+                <div class="item-info">
+                    <div class="year-badge">2023</div>
+                    <h4>JavaScript</h4>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                    aliquam illo maxime.</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="assets/item-2.jpg">
+            <div class="details">
+                <h3>Designing Login Form</h3>
+                <div class="item-info">
+                    <div class="year-badge">2023</div>
+                    <h4>Login Design</h4>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                    aliquam illo maxime.</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="assets/item-3.jpg">
+            <div class="details">
+                <h3>Music Platform UI</h3>
+                <div class="item-info">
+                    <div class="year-badge">2024</div>
+                    <h4>UI Design</h4>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos ratione beatae voluptas
+                    aliquam illo maxime.</p>
+            </div>
         </div>
     </div>
 
     <footer>
-        <p>SoloBebo ©2024, Tutti i diritti riservati.</p>
+        <div class="socials">
+            <i class='bx bxl-facebook-square'></i>
+            <i class='bx bxl-instagram'></i>
+            <i class='bx bxl-twitter'></i>
+            <i class='bx bxl-linkedin-square'></i>
+        </div>
+        <p>Copyright ©2024, All rights reserved.</p>
     </footer>
+
 </body>
+
 </html>

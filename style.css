@@ -599,13 +599,3 @@ footer p{
     }
 
 }
-/* ... (gli stili CSS precedenti) ... */
-
-/* Stili aggiuntivi per le sezioni */
-.section {
-    padding: 50px; /* Aggiungi padding alle sezioni */
-}
-
-.section h2 {
-    margin-bottom: 20px; /* Spazio tra il titolo e il contenuto della sezione */
-}
