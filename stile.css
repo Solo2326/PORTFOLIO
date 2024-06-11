@@ -103,7 +103,7 @@ button:hover{
 .image-wrapper{
     display: flex;
     margin-top: 5vh;
-    position: relative;
+    position: fixed;
 }
 
 .image-wrapper img{
